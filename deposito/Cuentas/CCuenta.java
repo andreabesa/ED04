@@ -1,3 +1,4 @@
+package Cuentas;
 public class CCuenta {
 
 
