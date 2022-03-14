@@ -10,10 +10,10 @@ public class Main {
         saldoActual = cuenta1.estado();
         System.out.println("El saldo actual es"+ saldoActual );
 
-        operativa_cuenta();
+        operativa_cuenta(0);
     }
 
-	private static void operativa_cuenta() {
+	private static void operativa_cuenta(float cantidad) {
 		try {
             cuenta1.retirar(2300);
         } catch (Exception e) {
